@@ -1,0 +1,103 @@
+# https://www.toptal.com/developers/gitignore/api/windows,unity에 의해 생성됨
+# https://www.toptal.com/developers/gitignore?templates=windows,unity에서 편집
+
+### 유니티 ###
+# 이 .gitignore 파일은 Unity 프로젝트 디렉토리의 루트에 위치해야 합니다.
+#
+# https://github.com/github/gitignore/blob/main/Unity.gitignore에서 최신 정보 얻기
+/[Ll]도서관/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]유일드/
+/[Bb]유일드/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures는 크기가 과도해질 수 있습니다.
+# 그들은 또한 매우 민감한 데이터를 포함할 수 있습니다
+/[음]emoryCaptures/
+
+# 녹음 파일의 크기가 너무 커질 수 있습니다.
+/[Rr]녹화/
+
+# 자산 저장소 도구 플러그인을 무시하려면 이 행의 주석을 제거하십시오.
+# /[Aa]ssets/AssetStoreTools*
+
+# 자동 생성된 Jetbrains Rider 플러그인
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio 캐시 디렉터리
+.vs/
+
+# 그레이들 캐시 디렉토리
+.gradle/
+
+# 자동 생성된 VS/MD/Consulo 솔루션 및 프로젝트 파일
+내보낸 객체/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.사용자
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D 생성 메타 파일
+*.pidb.메타
+*.pdb.메타
+*.mdb.메타
+
+# 충돌 보고서에 Unity3D 생성 파일
+sysinfo.txt
+
+# 빌드
+*.apk
+*.aab
+*.unitypackage
+*.앱
+
+# Crashlytics 생성 파일
+crashlytics-build.properties
+
+# 포장된 어드레서블
+/[Aa]ssets/[Aa]주소 지정 가능[Aa]ssets[Dd]ata/*/*.bin*
+
+# 임시 자동 생성 Android 자산
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+### 윈도우 ###
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db:암호화 가능
+ehthumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+*.stackdump
+
+# 폴더 구성 파일
+[DD]esktop.ini
+
+# 파일 공유에 사용되는 휴지통
+$RECLECLE.BIN/
+
+# 윈도우 인스톨러 파일
+*.택시
+*.msi
+*.msix
+*.msm
+*.msp
+
+# 윈도우 단축키
+*.lnk
+
+# 끝 https://www.toptal.com/developers/gitignore/api/windows,unity
